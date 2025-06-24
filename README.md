@@ -211,7 +211,7 @@ now 📁 directory looks like this
 
 
 
-7. Moving to the next, since we have connected and dockerized everything, we are going to be orchestrating the whole docker system with docker compose and we are going to create its YAML file.
+7. Moving to the next, since I have connected and dockerized everything, I am going to be orchestrating the whole docker system with docker compose and I am going to create its YAML file.
 
 Provided the docker-compose is installed in the machine.
 
@@ -245,7 +245,7 @@ services:
       - service2
 
 
-Now the whole directory looks like desired project directory and we can confirm from screenshot desirect-directory.
+Now the whole directory looks like desired project directory and I can confirm from screenshot desirect-directory.
 
 
 
@@ -273,7 +273,7 @@ docker compose up --build
 
 
 
-***ERROR 1 : we have encountered and error while perform docker-compose 
+***ERROR 1 : I have encountered and error while perform docker-compose 
 
 	Apparently it says "ModuleNotFoundError: No module named 'flask' "
 
@@ -298,7 +298,7 @@ docker compose up --build
 
 
 
-***ERROR 2 : we have encountered another error in nginx.conf, so we are going to reconfigure the deafualt.conf and Dockerfile
+***ERROR 2 : I have encountered another error in nginx.conf, so I am going to reconfigure the deafualt.conf and Dockerfile
 
 
 -----defualt.conf------
@@ -334,7 +334,7 @@ COPY default.conf /etc/nginx/conf.d/default.conf
 OUTPUT:
 
 
-The Docker-compose was build the whoel setup and we were abel to see the following output
+The Docker-compose was build the whole setup and I was able to see the following output
 
 
 http://3.80.211.14:8080/service1/ping   -    Pretty-print
