@@ -365,8 +365,9 @@ git branch -M main
 git push -u origin main --force
 
 
+and we can check this on remote repo
 
-*****Is my remote GitHub repo:   https://github.com/cloudnash/DPDzero-DevOpsAssignment
+**** This my remote GitHub repo:   https://github.com/cloudnash/DPDzero-DevOpsAssignment
 
 
 
