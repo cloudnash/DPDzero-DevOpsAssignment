@@ -51,7 +51,7 @@ so after running this I checked my Then visit:
 NOTE: I had allowed all the Inbound traffic from 8001 in our security group of EC2 machine.
 
 
-Only in my case I am running this is EC2 machine of PUBLIC IP: http://3.80.211.14 that can listens to port 8001 which you can see in see in the screenshot  go-A and go-B
+Only in my case I am running this is EC2 machine of PUBLIC IP: http://3.80.211.14 that can listens to port 8001 which you can see in see in the screenshot  localhost8001_ping and localhost8001_hello.
 
 
 
@@ -88,7 +88,7 @@ so after running this I checked my Then visit:
 NOTE: I had allowed all the Inbound traffic from 8002 in our security group of EC2 machine.
 
 
-Only in my case I am running this is EC2 machine of PUBLIC IP: http://3.80.211.14 that can listens to port 8002 which you can see in see in the screenshot  py-A and py-B
+Only in my case I am running this is EC2 machine of PUBLIC IP: http://3.80.211.14 that can listens to port 8002 which you can see in see in the screenshot localhost8002_ping and localhost8002_hello
 
 
 
@@ -245,7 +245,7 @@ services:
       - service2
 
 
-Now the whole directory looks like desired project directory and I can confirm from screenshot desirect-directory.
+Now the whole directory looks like desired project directory and I can confirm from screenshot required-directory.
 
 
 
@@ -278,7 +278,7 @@ docker compose up --build
 	Apparently it says "ModuleNotFoundError: No module named 'flask' "
 
 
-	We are going to make some changes in app.py, which is
+	We are going to make some changes in dockerfile, which is
 
 	### Updating service_2 Dockerfile
 
@@ -329,8 +329,6 @@ COPY default.conf /etc/nginx/conf.d/default.conf
 
 
 
-
-
 OUTPUT:
 
 
@@ -344,6 +342,7 @@ http://3.80.211.14:8080/service2/ping   -    Pretty-print
 							{"service":"2", "status":"ok"}
 
 
+That can also be viewed in screenshot docker-compose-output1  and docker-compose-output2
 
 
 
@@ -369,7 +368,7 @@ git push -u origin main --force
 
 *****Is my remote GitHub repo:   https://github.com/cloudnash/DPDzero-DevOpsAssignment
 
-
+All the screenshots can be viewed in the folder named Screenshot also attached in this repo, For reference.
 
 
 Made by Nashit Ahmad
