@@ -368,6 +368,19 @@ git push -u origin main --force
 
 *****Is my remote GitHub repo:   https://github.com/cloudnash/DPDzero-DevOpsAssignment
 
+
+
+
+## ✅ Bonus Features Implemented
+
+- [x] Healthchecks for both services via Docker Compose
+- [x] Modular and clean Docker structure
+- [x] Optional test script (`test.sh`) to validate routes post-deploy
+
+All screenshots of bonus tasks mentioned in Bonus folder
+
+
+
 All the screenshots can be viewed in the folder named Screenshot also attached in this repo, For reference.
 
 
